@@ -13,6 +13,7 @@ import android.widget.Button;
 
 import polinema.ac.id.uassewahotel.R;
 import polinema.ac.id.uassewahotel.activities.LoginActivity;
+import polinema.ac.id.uassewahotel.activities.RegistrasiActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -44,7 +45,7 @@ public class AccountFragment extends Fragment {
         registrasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getActivity(), LoginActivity.class);
+                Intent in = new Intent(getActivity(), RegistrasiActivity.class);
                 startActivity(in);
             }
         });

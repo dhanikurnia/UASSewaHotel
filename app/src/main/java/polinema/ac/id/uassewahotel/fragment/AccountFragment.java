@@ -14,6 +14,7 @@ import android.widget.Button;
 import polinema.ac.id.uassewahotel.R;
 import polinema.ac.id.uassewahotel.activities.LoginActivity;
 import polinema.ac.id.uassewahotel.activities.RegistrasiActivity;
+import polinema.ac.id.uassewahotel.activities.pembayaranActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -46,6 +47,24 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getActivity(), RegistrasiActivity.class);
+                startActivity(in);
+            }
+        });
+
+        Button pembayaran = (Button) view.findViewById(R.id.pembayaran);
+        pembayaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), pembayaranActivity.class);
+                startActivity(in);
+            }
+        });
+
+        Button contact = (Button) view.findViewById(R.id.contact);
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), TalktoUsFragment.class);
                 startActivity(in);
             }
         });

@@ -3,7 +3,6 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="polinema.ac.id.uassewahotel">
 
-
     <application
         android:allowBackup="true"
         android:background="@color/colorblack"
@@ -12,7 +11,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.RegistrasiActivity"></activity>
+        <activity android:name=".activities.pembayaranActivity"></activity>
+        <activity android:name=".activities.RegistrasiActivity" />
         <activity android:name=".activities.SuksesLoginActivity" />
         <activity android:name=".activities.LoginActivity" />
         <activity android:name=".activities.MainActivity" />

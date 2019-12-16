@@ -5,12 +5,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/hotela"
-        android:label="UAS SewaHotel."
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:background="@color/colorblack"
+        android:icon="@drawable/hotelo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hotelo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.pembayaranActivity"></activity>
+        <activity android:name=".activities.UangActivity"></activity>
+        <activity android:name=".activities.pembayaranActivity" />
         <activity android:name=".activities.RegistrasiActivity" />
         <activity android:name=".activities.SuksesLoginActivity" />
         <activity android:name=".activities.LoginActivity" />

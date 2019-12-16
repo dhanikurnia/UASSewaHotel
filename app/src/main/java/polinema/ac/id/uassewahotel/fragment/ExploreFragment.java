@@ -29,21 +29,21 @@ public class ExploreFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_explore, container, false);
         // Inflate the layout for this fragment
-        CardView cardView = (CardView) view.findViewById(R.id.cardview1);
+        //CardView cardView = (CardView) view.findViewById(R.id.cardview1);
         CardView cardView2 = (CardView) view.findViewById(R.id.cardview2);
         CardView cardView3 = (CardView) view.findViewById(R.id.cardview3);
         CardView cardView4 = (CardView) view.findViewById(R.id.cardview4);
         CardView cardView5 = (CardView) view.findViewById(R.id.cardview5);
 
 
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity().getApplicationContext(), "Berhasil Membyar", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), pembayaranActivity.class);
-                startActivity(i);
-            }
-        });
+        //cardView.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
+            //    Toast.makeText(getActivity().getApplicationContext(), "Berhasil Membyar", Toast.LENGTH_LONG).show();
+             //   Intent i = new Intent(getActivity(), pembayaranActivity.class);
+              //  startActivity(i);
+            //}
+        //});
 
         cardView2.setOnClickListener(new View.OnClickListener() {
             @Override

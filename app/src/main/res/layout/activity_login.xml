@@ -68,6 +68,7 @@
         android:layout_height="40dp"
         android:layout_marginBottom="140dp"
         android:text="LOG IN"
+        android:fontFamily="@font/montserrat_semi_bold"
         android:background="@color/colorred"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -89,6 +90,7 @@
         android:layout_height="24dp"
         android:layout_marginBottom="8dp"
         android:text="SILAKAN LOG IN"
+        android:fontFamily="@font/montserrat_semi_bold"
         android:textColor="@color/colorblack"
         app:layout_constraintBottom_toTopOf="@+id/reset_code"
         app:layout_constraintStart_toStartOf="parent" />

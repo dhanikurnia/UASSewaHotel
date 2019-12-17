@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/cardview1"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:padding="10dp">
 
             <LinearLayout
@@ -30,7 +30,7 @@
                     android:scaleType="fitXY"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/pesan" />
+                    android:src="@drawable/malang" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                         android:scaleType="fitXY"
                         android:layout_marginRight="20dp"
                         android:layout_marginLeft="20dp"
-                        android:src="@drawable/hotelo" />
+                        android:src="@drawable/bali" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
                             android:scaleType="fitXY"
                             android:layout_marginRight="20dp"
                             android:layout_marginLeft="20dp"
-                            android:src="@drawable/hoteli" />
+                            android:src="@drawable/jakarta" />
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
                                 android:scaleType="fitXY"
                                 android:layout_marginRight="20dp"
                                 android:layout_marginLeft="20dp"
-                                android:src="@drawable/hoteli" />
+                                android:src="@drawable/batu" />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                                     android:scaleType="fitXY"
                                     android:layout_marginRight="20dp"
                                     android:layout_marginLeft="20dp"
-                                    android:src="@drawable/hoteli" />
+                                    android:src="@drawable/semarang" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -103,7 +103,7 @@
                                         android:scaleType="fitXY"
                                         android:layout_marginRight="20dp"
                                         android:layout_marginLeft="20dp"
-                                        android:src="@drawable/hoteli" />
+                                        android:src="@drawable/jogja" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -119,7 +119,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="712dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:layout_marginBottom="250dp">
 
 
@@ -149,7 +149,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/hotel"
+                    android:background="@drawable/discon1"
                     android:orientation="horizontal">
 
                 </LinearLayout>
@@ -167,7 +167,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/hotel"
+                    android:background="@drawable/discon2"
                     android:orientation="horizontal">
 
                 </LinearLayout>
@@ -185,7 +185,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/hotel"
+                    android:background="@drawable/discon3"
                     android:orientation="horizontal">
 
                 </LinearLayout>
@@ -203,7 +203,26 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/hotel"
+                    android:background="@drawable/discon4"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/cardview1"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/discon6"
                     android:orientation="horizontal">
 
                 </LinearLayout>
@@ -213,7 +232,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/hotel"
+                android:background="@drawable/discon5"
                 android:orientation="horizontal">
 
             </LinearLayout>

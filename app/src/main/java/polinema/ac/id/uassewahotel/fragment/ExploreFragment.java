@@ -48,7 +48,7 @@ public class ExploreFragment extends Fragment {
         cardView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity().getApplicationContext(), "Berhasil Membayar",Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Pembayar",Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getActivity(), pembayaranActivity.class);
                 startActivity(i);
             }
@@ -57,7 +57,7 @@ public class ExploreFragment extends Fragment {
         cardView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity().getApplicationContext(), "Berhasil Membayar",Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getActivity(), pembayaranActivity.class);
                 startActivity(i);
             }
@@ -66,7 +66,7 @@ public class ExploreFragment extends Fragment {
            cardView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Toast.makeText(getActivity().getApplicationContext(), "Berhasil Membayar",Toast.LENGTH_LONG).show();
+               Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getActivity(), pembayaranActivity.class);
                 startActivity(i);
           }
@@ -74,7 +74,7 @@ public class ExploreFragment extends Fragment {
         cardView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity().getApplicationContext(), "Berhasil Membayar",Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getActivity(), pembayaranActivity.class);
                 startActivity(i);
             }

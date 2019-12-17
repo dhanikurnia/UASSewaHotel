@@ -106,7 +106,7 @@
                             android:layout_marginTop="25dp"
                             android:layout_marginLeft="50dp"
                             android:textSize="20sp"
-                            android:text="Hotel California" />
+                            android:text="Hotel Aria Malang" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -141,7 +141,7 @@
                             android:layout_marginTop="25dp"
                             android:layout_marginLeft="50dp"
                             android:textSize="20sp"
-                            android:text="Hotel Las Vegas" />
+                            android:text="Hotel W Bali" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -176,7 +176,7 @@
                             android:layout_marginTop="25dp"
                             android:layout_marginLeft="50dp"
                             android:textSize="20sp"
-                            android:text="Hotel merah putih" />
+                            android:text="Hotel Alila SCDB Jakarta" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -210,7 +210,7 @@
                             android:layout_marginTop="25dp"
                             android:layout_marginLeft="50dp"
                             android:textSize="20sp"
-                            android:text="Hotel Kasih Bunda" />
+                            android:text="Hotel Batu Permai" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -244,7 +244,7 @@
                             android:layout_marginTop="25dp"
                             android:layout_marginLeft="50dp"
                             android:textSize="20sp"
-                            android:text="Hotel Kasih Bunda" />
+                            android:text="Hotel Ibis Semarang Simpang Lima" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -278,7 +278,7 @@
                             android:layout_marginTop="25dp"
                             android:layout_marginLeft="50dp"
                             android:textSize="20sp"
-                            android:text="Hotel Kasih Bunda" />
+                            android:text="Hotel Burza Yogyakarta" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -312,7 +312,7 @@
                             android:layout_marginTop="25dp"
                             android:layout_marginLeft="50dp"
                             android:textSize="20sp"
-                            android:text="Hotel Kasih Bunda" />
+                            android:text="Hotel Melati" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

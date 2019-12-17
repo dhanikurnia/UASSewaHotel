@@ -11,7 +11,8 @@
         android:roundIcon="@drawable/hotelo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.UangActivity"></activity>
+        <activity android:name=".activities.AboutActivity"></activity>
+        <activity android:name=".activities.UangActivity" />
         <activity android:name=".activities.pembayaranActivity" />
         <activity android:name=".activities.RegistrasiActivity" />
         <activity android:name=".activities.LoginActivity" />

@@ -22,33 +22,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_below="@id/cardview1"
-                android:layout_marginTop="20dp"
                 android:padding="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:background="@drawable/hotela">
+                    android:background="@drawable/hotel">
 
 
                     <LinearLayout
-                        android:layout_width="300dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="50dp"
                         android:orientation="vertical">
 
                         <TextView
-                            android:layout_width="200dp"
+                            android:layout_width="match_parent"
                             android:layout_height="50dp"
+                            android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:layout_marginTop="25dp"
                             android:layout_marginRight="50dp"
                             android:fontFamily="@font/montserrat_semi_bold"
-                            android:text="Selamat Pagi"
-                            android:textColor="@color/colorred"
+                            android:text="Selamat Datang"
+                            android:textColor="@color/colorAccent"
                             android:textColorHighlight="@color/colorAccent"
-                            android:textSize="28dp" />
+                            android:textSize="30dp" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -185,6 +185,176 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_below="@id/cardview4"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/hotelenamm" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="50dp"
+                            android:textSize="20sp"
+                            android:text="Hotel Kasih Bunda" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/cardview5"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/hotelenamm" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="50dp"
+                            android:textSize="20sp"
+                            android:text="Hotel Kasih Bunda" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/cardview6"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/hotelenamm" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="50dp"
+                            android:textSize="20sp"
+                            android:text="Hotel Kasih Bunda" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/cardview7"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/hotelenamm" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="50dp"
+                            android:textSize="20sp"
+                            android:text="Hotel Kasih Bunda" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/cardview8"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/hotelenamm" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="50dp"
+                            android:textSize="20sp"
+                            android:text="Hotel Kasih Bunda" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/cardview9"
                 android:layout_marginTop="10dp"
                 android:padding="10dp">
 

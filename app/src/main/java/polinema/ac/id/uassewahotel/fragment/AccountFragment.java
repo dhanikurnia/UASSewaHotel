@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import polinema.ac.id.uassewahotel.R;
+import polinema.ac.id.uassewahotel.activities.AboutActivity;
 import polinema.ac.id.uassewahotel.activities.LoginActivity;
 import polinema.ac.id.uassewahotel.activities.RegistrasiActivity;
 import polinema.ac.id.uassewahotel.activities.pembayaranActivity;
@@ -65,6 +66,15 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getActivity(), TalktoUsFragment.class);
+                startActivity(in);
+            }
+        });
+
+        Button about = (Button) view.findViewById(R.id.about);
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), AboutActivity.class);
                 startActivity(in);
             }
         });

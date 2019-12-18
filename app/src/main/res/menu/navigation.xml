@@ -4,7 +4,7 @@
         android:title="Explore"
         android:icon="@drawable/magnifying" />
     <item android:id="@+id/action_boking"
-        android:title="My Bookings"
+        android:title="Promotion"
         android:icon="@drawable/clipboard" />
     <item android:id="@+id/action_chat"
         android:title="Talk to Us"

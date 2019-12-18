@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import polinema.ac.id.uassewahotel.R;
+import polinema.ac.id.uassewahotel.activities.MainActivity;
 import polinema.ac.id.uassewahotel.activities.pembayaranActivity;
 
 /**
@@ -40,42 +41,42 @@ public class TalktoUsFragment extends Fragment {
         ImageView1.setOnClickListener(new View.OnClickListener() {
           @Override
            public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-           Intent i = new Intent(getActivity(), ExploreFragment.class);
+           Intent i = new Intent(getActivity(), MainActivity.class);
           startActivity(i);
         }
         });
         ImageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(),ExploreFragment .class);
+                Intent i = new Intent(getActivity(),MainActivity .class);
                 startActivity(i);
             }
         });
         ImageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), ExploreFragment.class);
+                Intent i = new Intent(getActivity(), MainActivity.class);
                 startActivity(i);
             }
         });
         ImageView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), ExploreFragment.class);
+                Intent i = new Intent(getActivity(), MainActivity.class);
                 startActivity(i);
             }
         });
         ImageView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil ", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), ExploreFragment.class);
+                Intent i = new Intent(getActivity(), MainActivity.class);
                 startActivity(i);
             }
         });
         ImageView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil ", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), ExploreFragment.class);
+                Intent i = new Intent(getActivity(), MainActivity.class);
                 startActivity(i);
             }
         });

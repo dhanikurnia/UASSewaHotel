@@ -30,7 +30,8 @@
                     android:scaleType="fitXY"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/malang" />
+                    android:src="@drawable/malang"
+                    />
 
                 <LinearLayout
                     android:layout_width="match_parent"

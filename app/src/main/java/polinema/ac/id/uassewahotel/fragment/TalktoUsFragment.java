@@ -34,8 +34,6 @@ public class TalktoUsFragment extends Fragment {
         ImageView ImageView2 = (ImageView) view.findViewById(R.id.images2);
         ImageView ImageView3 = (ImageView) view.findViewById(R.id.images3);
         ImageView ImageView4 = (ImageView) view.findViewById(R.id.images4);
-        ImageView ImageView5 = (ImageView) view.findViewById(R.id.images5);
-        ImageView ImageView6 = (ImageView) view.findViewById(R.id.images6);
 
 
         ImageView1.setOnClickListener(new View.OnClickListener() {
@@ -62,20 +60,6 @@ public class TalktoUsFragment extends Fragment {
         ImageView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), MainActivity.class);
-                startActivity(i);
-            }
-        });
-        ImageView5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil ", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), MainActivity.class);
-                startActivity(i);
-            }
-        });
-        ImageView6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil ", Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getActivity(), MainActivity.class);
                 startActivity(i);
             }

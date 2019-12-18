@@ -120,7 +120,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="712dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="250dp"
         android:layout_marginBottom="250dp">
 
 
@@ -128,16 +128,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cardview1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@id/cardview1"
-                android:layout_marginTop="300dp"
-                android:padding="10dp">
-
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardview2"

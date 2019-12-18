@@ -34,6 +34,12 @@ public class ExploreFragment extends Fragment {
         CardView cardView3 = (CardView) view.findViewById(R.id.cardview3);
         CardView cardView4 = (CardView) view.findViewById(R.id.cardview4);
         CardView cardView5 = (CardView) view.findViewById(R.id.cardview5);
+        CardView cardView6 = (CardView) view.findViewById(R.id.cardview6);
+        CardView cardView7 = (CardView) view.findViewById(R.id.cardview7);
+        CardView cardView8 = (CardView) view.findViewById(R.id.cardview8);
+        CardView cardView9 = (CardView) view.findViewById(R.id.cardview9);
+        CardView cardView10 = (CardView) view.findViewById(R.id.cardview10);
+
 
 
         //cardView.setOnClickListener(new View.OnClickListener() {
@@ -72,6 +78,46 @@ public class ExploreFragment extends Fragment {
           }
         });
         cardView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
+                Intent i = new Intent(getActivity(), pembayaranActivity.class);
+                startActivity(i);
+            }
+        });
+        cardView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
+                Intent i = new Intent(getActivity(), pembayaranActivity.class);
+                startActivity(i);
+            }
+        });
+        cardView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
+                Intent i = new Intent(getActivity(), pembayaranActivity.class);
+                startActivity(i);
+            }
+        });
+        cardView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
+                Intent i = new Intent(getActivity(), pembayaranActivity.class);
+                startActivity(i);
+            }
+        });
+        cardView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();
+                Intent i = new Intent(getActivity(), pembayaranActivity.class);
+                startActivity(i);
+            }
+        });
+        cardView10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getActivity().getApplicationContext(), "Memilih Metode Membayar",Toast.LENGTH_LONG).show();

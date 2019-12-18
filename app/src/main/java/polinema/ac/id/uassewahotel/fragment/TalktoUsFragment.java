@@ -39,29 +39,25 @@ public class TalktoUsFragment extends Fragment {
         ImageView1.setOnClickListener(new View.OnClickListener() {
           @Override
            public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-           Intent i = new Intent(getActivity(), MainActivity.class);
-          startActivity(i);
+
         }
         });
         ImageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(),MainActivity .class);
-                startActivity(i);
+
             }
         });
         ImageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), MainActivity.class);
-                startActivity(i);
+
             }
         });
         ImageView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { Toast.makeText(getActivity().getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getActivity(), MainActivity.class);
-                startActivity(i);
+
             }
         });
 

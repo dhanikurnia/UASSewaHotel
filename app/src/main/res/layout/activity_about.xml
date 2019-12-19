@@ -50,6 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="700dp"
+        android:layout_marginTop="300dp"
         android:text="STUDY HOSPITALITY AT SWISS EDUCATION GROUP"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
@@ -62,6 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="400dp"
+        android:layout_marginTop="550dp"
         android:text="Swiss Education Group is an alliance of 5 private hospitality management schools based across 6 beautifully located campuses throughout Switzerland.
 
 We have over 6,000 students from 111 countries within our current student body, enjoying a truly international experience"

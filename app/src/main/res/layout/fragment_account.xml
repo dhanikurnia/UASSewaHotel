@@ -81,19 +81,10 @@
         android:layout_marginBottom="16dp"
         android:text="About"
         android:layout_marginTop="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/setting"
+        app:layout_constraintBottom_toTopOf="@+id/contact"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/setting"
-        android:layout_width="match_parent"
-        android:layout_height="47dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Setting"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />/
+
 </LinearLayout>
